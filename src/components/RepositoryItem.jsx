@@ -10,10 +10,10 @@ const RepositoryItem = (props) => {
             <Text>Description: {props.description}</Text>
             <Text>Language: {props.language}</Text>
             <Text>Forks: {props.forksCount}</Text>
-            <Text>{props.ratingAvverage}</Text>
-            <Text>{props.reviewCount}</Text>
-            <Text>{props.stargazersCount}</Text>
-            <Text>{props.ownerAvatarUrl}</Text>
+            <Text>Rating: {props.ratingAvverage}</Text>
+            <Text>Reviews: {props.reviewCount}</Text>
+            <Text>Stargazer: {props.stargazersCount}</Text>
+            <Text>Avatar Url: {props.ownerAvatarUrl}</Text>
         </View>
     )
 }
